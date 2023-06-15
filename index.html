@@ -93,5 +93,80 @@
             </div>
 
     </div>
+
+    <form action="" id="form1" name="form1">
+
+    <div class="row">
+        <div class="col s12 center-align">
+            <h1>Contactanos...</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 input-field">
+            <input type="text" name="name" id="name" required pattern="[A-Za-z\s]{3,50}">
+            <label for="name">Nombre:</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 input-field">
+            <input type="text" name="number" id="number" required pattern="[0-9]{10}">
+            <label for="number">Numero:</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 input-field">
+            <input type="email" name="email" id="email" >
+            <label for="email">Email:</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <label for="">Selecciona Genero:</label>
+            <p>
+            <label>
+                <input type="radio" name="genero">
+                <span>Viejona</span>
+            </label>
+            </p>
+            <p>
+            <label>
+                <input type="radio" name="genero">
+                <span>Viejon</span>
+            </label>
+            </p>
+            <p>
+            <label>
+                <input type="radio" name="genero">
+                <span>Apache Helicopter</span>
+            </label>
+            </p>
+            <p>
+            <label>
+                <input type="radio" name="genero">
+                <span>Otro morro raro</span>
+            </label>
+            </p>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col s12">
+                <textarea name="coments" id="coments"></textarea>
+                <label for="coments">Comentarios:</label>
+            </div>
+        </div>
+        <div class="row center-align">
+            <div class="col s6">
+                <input class="btn" type="submit" id="enviar" name="Enviar" value="Enviar">
+            </div>
+        
+            <div class="col s6">
+                <input class="btn" type="reset" id="cancelar" name="cancelar" value="Cancelar">
+            </div>
+        </div>
+
+    </form>
+
+    </div>
+
 </body>
 </html>
